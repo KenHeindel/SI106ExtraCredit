@@ -152,5 +152,5 @@ if post_status == 'Post':
     graph.put_object("me", "feed", message=ultimate+"""
     Posted via Kenny's kickass program""")
 print
-print 'END PROGRAM'
+print 'TERMINATE PROGRAM'
 print
