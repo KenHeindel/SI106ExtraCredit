@@ -120,7 +120,7 @@ user_input=raw_input("Type the letter you wish to begin your status with:   ")
 
 ultimate=ultimate+user_input
 
-while user_input != "END":
+while user_input != "end".upper():
     options=SortedPersDict[user_input]
     for char in options:
         print ultimate
@@ -134,12 +134,12 @@ while user_input != "END":
             user_input=raw_input("Type the next letter of your post here:   ")
             ultimate=ultimate+user_input
             break
-        elif current == 'DEL':
+        elif current == 'del'.upper():
             ultimate=ultimate[:-1]
             user_input=ultimate[-1]
             break
-        elif current == 'END':
-            user_input='END'
+        elif current == 'end'.upper:
+            user_input='end'.upper
             break
 print
 print
@@ -151,7 +151,8 @@ post_status=raw_input("Thank you for using the 'Next Letter Generator'. If you w
 
 if post_status == 'Post':
     graph.put_object("me", "feed", message=ultimate+"""
-    Posted via Kenny's kickass program""")
+    Posted via King Hufflepuff's kickass program""")
 print
 print 'TERMINATE PROGRAM'
-print
+print 
+print '~*wu wuz hurr*~'
