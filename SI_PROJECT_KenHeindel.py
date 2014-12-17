@@ -53,6 +53,7 @@ def concat_all(L):
     return res
     
 #test.TestEqual(concat_all(['I','had','a','pretty','pony.'], 'I had a pretty pony.')
+test.TestEqual(concat_all(['I','would','walk','500','miles'], 'I would walk 500 miles')
            
 train_txt=[] 
 for each in list_instance:
