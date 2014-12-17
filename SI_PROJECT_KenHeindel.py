@@ -112,7 +112,7 @@ print "To type the next character manually, type 'm'"
 print "To erase a character, type 'DEL'."
 print "When you're finished, type 'END'"
 print
-print
+print "Katie was here"
 
 ultimate=''
 
